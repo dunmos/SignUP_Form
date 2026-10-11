@@ -15,7 +15,7 @@ body {
 .sidebar{
     width: 37.2%;
     min-height: 100vh;
-    background-image: url("/Javascript_FullStack/SignUP_Form/images/background.jpg");
+    background-image: url("/SignUP_Form/images/background.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
