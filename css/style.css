@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    color: #1f2937;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+}
+.sidebar{
+    width: 37.2%;
+    min-height: 100vh;
+    background-image: url("/Javascript_FullStack/SignUP_Form/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    margin-left: 10px;
+
+}
+.logo{
+    margin-top: 28vh;
+    padding: 15px 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+.logo img {
+    width: 75px;
+    height: auto;
+}
+.logo span {
+    font-family: serif;
+    font-size: 70px;
+    font-weight: bold;
+}
+.photo-credit {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 10px;
+}
+.photo-credit a {
+    color: white;
+}
+.main-content{
+    flex: 1;
+    background-color: #f9fafb;
+}   
+.intro{
+    padding: 145px 48px 42px;
+    font-size: 23px;
+    line-height: 1.25;
+    font-weight: 700;
+    color: #080808;
+    max-width: 850px;
+}
+.intro p:last-child {
+    margin-top: 26px;
+}
+
+.form-section{
+    background-color: white;
+    padding: 20px 48px 40px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+}
+.form-section h2 {
+    margin: 0 0 24px;
+    font-size: 23px;
+    font-weight: 500;
+}
+.form-container {            
+    display: flex;
+    gap: 72px;
+}
+.form-column{
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+ width: 262px;
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+}
+.form-field label {
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.form-field input {
+    height: 33px;
+    width: 100%;
+    padding: 6px 10px;
+    border: 1px solid #E5E7EB;
+    border-radius: 4px;
+    font-size: 15px;
+}
+.form-field input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+.form-field input:user-invalid {
+    border: 1px solid red;
+}
+.form-footer{
+    padding: 34px 48px;
+}
+.form-footer button {
+    width: 235px;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #596D48;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-footer button:hover {
+    background-color: #465738;
+}
+.form-footer p {
+    margin-top: 35px;
+    color: #080808;
+}
+.form-footer a {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: 700;
+}
+.form-footer a:hover {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: "Norse";
+    src: url("/Javascript_FullStack/SignUP_Form/fonts/Norsebold.otf") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+.logo span {
+    font-family: "Norse", serif;
+    font-size: 70px;
+    font-weight: bold;
+}
